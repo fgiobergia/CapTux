@@ -48,15 +48,7 @@ To compile the program you'll need SDL and SDL_ttf libraries. Then run:
 $ gcc -o main main.c -lSDL -lSDL_ttf
 
 Now the 'main' executable file will be created.
-You can launch CapTux from the current directory, or you can move it
-to /usr/local/bin (you'll need to be root to do so):
-
-# mv main /usr/local/bin/captux
-# mv cour.ttf /usr/local/bin/cour.ttf
-
-Now CapTux is available by launching:
-
-$ captux username password
+You can launch CapTux from the current directory.
 
 And that's all :) A new captcha will pop up sometime, and in the meantime
 you can do whatever you want!
